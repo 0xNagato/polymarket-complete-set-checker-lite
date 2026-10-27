@@ -1,0 +1,122 @@
+[
+ {
+  "id": "1",
+  "question": "Fixture efficient binary?",
+  "slug": "fixture-efficient-binary",
+  "active": true,
+  "closed": false,
+  "archived": false,
+  "enableOrderBook": true,
+  "acceptingOrders": true,
+  "clobTokenIds": "[\"t1y\", \"t1n\"]",
+  "outcomePrices": "[\"0.5\", \"0.5\"]",
+  "liquidityNum": 50000,
+  "volume24hr": 5000,
+  "spread": 0.01,
+  "endDate": "2026-12-31T00:00:00Z",
+  "feesEnabled": true,
+  "feeSchedule": {
+   "rate": 0.04,
+   "exponent": 1,
+   "takerOnly": true,
+   "rebateRate": 0
+  },
+  "feeType": "politics",
+  "negRisk": false,
+  "events": [
+   {
+    "slug": "fixture-event-1"
+   }
+  ]
+ },
+ {
+  "id": "2",
+  "question": "Fixture mispriced binary?",
+  "slug": "fixture-mispriced-binary",
+  "active": true,
+  "closed": false,
+  "archived": false,
+  "enableOrderBook": true,
+  "acceptingOrders": true,
+  "clobTokenIds": "[\"t2y\", \"t2n\"]",
+  "outcomePrices": "[\"0.5\", \"0.5\"]",
+  "liquidityNum": 20000,
+  "volume24hr": 5000,
+  "spread": 0.01,
+  "endDate": "2026-12-31T00:00:00Z",
+  "feesEnabled": true,
+  "feeSchedule": {
+   "rate": 0.0,
+   "exponent": 1,
+   "takerOnly": true,
+   "rebateRate": 0
+  },
+  "feeType": "zero_fees",
+  "negRisk": false,
+  "events": [
+   {
+    "slug": "fixture-event-2"
+   }
+  ]
+ },
+ {
+  "id": "3",
+  "question": "Fixture illiquid binary?",
+  "slug": "fixture-illiquid-binary",
+  "active": true,
+  "closed": false,
+  "archived": false,
+  "enableOrderBook": true,
+  "acceptingOrders": true,
+  "clobTokenIds": "[\"t3y\", \"t3n\"]",
+  "outcomePrices": "[\"0.5\", \"0.5\"]",
+  "liquidityNum": 500,
+  "volume24hr": 5000,
+  "spread": 0.01,
+  "endDate": "2026-12-31T00:00:00Z",
+  "feesEnabled": true,
+  "feeSchedule": {
+   "rate": 0.0,
+   "exponent": 1,
+   "takerOnly": true,
+   "rebateRate": 0
+  },
+  "feeType": "zero_fees",
+  "negRisk": false,
+  "events": [
+   {
+    "slug": "fixture-event-3"
+   }
+  ]
+ },
+ {
+  "id": "4",
+  "question": "Fixture closed binary?",
+  "slug": "fixture-closed-binary",
+  "active": false,
+  "closed": true,
+  "archived": false,
+  "enableOrderBook": true,
+  "acceptingOrders": true,
+  "clobTokenIds": "[\"t4y\", \"t4n\"]",
+  "outcomePrices": "[\"0.5\", \"0.5\"]",
+  "liquidityNum": 90000,
+  "volume24hr": 5000,
+  "spread": 0.01,
+  "endDate": "2026-12-31T00:00:00Z",
+  "feesEnabled": true,
+  "feeSchedule": {
+   "rate": 0.0,
+   "exponent": 1,
+   "takerOnly": true,
+   "rebateRate": 0
+  },
+  "feeType": "zero_fees",
+  "negRisk": false,
+  "events": [
+   {
+    "slug": "fixture-event-4"
+   }
+  ]
+ }
+]
