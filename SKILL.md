@@ -55,6 +55,6 @@ market's own `feeSchedule`; if a market has none it assumes 0.07, the highest pu
 Binary YES+NO only, top of book only. No multi-outcome (neg-risk) baskets, no order-book
 depth walk, no market filters, no EV/Kelly, no spreadsheet or playbook.
 
-The paid Polymarket Edge Research Kit adds those (depth walk, neg-risk baskets, filters, EV, Excel calculator, PDF playbook): coming soon (follow https://x.com/MonsieurLowKey for the link)
+The paid Polymarket Edge Research Kit adds those (depth walk, neg-risk baskets, filters, EV, Excel calculator, PDF playbook) ($19): https://selar.com/v126c97911
 
 Educational tool. Not financial advice. Not affiliated with Polymarket.

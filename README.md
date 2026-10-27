@@ -37,7 +37,7 @@ split $1, sell YES+NO  Israel x Iran ceasefire continues through October 27?    
 ## Lite vs full
 Lite covers binary markets at the top of the book only. The full Polymarket Edge Research Kit
 adds an order-book depth walk, multi-outcome neg-risk baskets, market filters, EV and breakeven math,
-an Excel calculator and a PDF playbook: coming soon (follow https://x.com/MonsieurLowKey for the link)
+an Excel calculator and a PDF playbook ($19): https://selar.com/v126c97911
 
 License: MIT-0. Educational research tool, not financial advice. Not affiliated with Polymarket.
 Prediction markets are restricted in some countries; check your local law.
